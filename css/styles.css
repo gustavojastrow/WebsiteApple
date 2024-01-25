@@ -183,3 +183,36 @@ header nav{
     outline: 2px solid #43a1ff;
   }
   
+@media (max-width: 480px){
+  #nav li{
+    display: none;
+  }
+
+  #nav .logo{
+    display: flex;
+  }
+
+  #bottom-header-links a{
+    display: none;
+  }
+
+  #bottom-header-links .btn{
+    display: flex;
+  }
+
+  .main{
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+  .main #subtitle{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px){
+  .main{
+    padding: 2rem;
+    overflow: hidden;
+  }
+}
