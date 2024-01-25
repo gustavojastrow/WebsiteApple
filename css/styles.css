@@ -65,4 +65,55 @@ header nav{
     color: white;
 }
 
+#parcel {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f5f5f7;
+    color: #1d1d1d;
+    font-size: 0.8rem;
+  }
+  
+  #parcel a {
+    color: #0071e3;
+  }
+
+  .main {
+    text-align: center;
+    color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main #title {
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .main #subtitle {
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .main #description {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  
+  .main #price {
+    font-size: 1.3rem;
+    color: #86868b;
+    margin: 2rem;
+  }
+  
+  .main .btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.4rem;
+    align-self: center;
+  }
+  
 
